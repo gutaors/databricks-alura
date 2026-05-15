@@ -1,0 +1,16 @@
+You can now use the activation scripts (activate.sh, activate.ps1, activate.bat)
+directly from this folder to activate it, or simply run source bin/activate from
+ WSL bash!
+
+
+ You can now use the activation scripts (activate.sh, activate.ps1, activate.bat)
+  directly from 
+ this folder to activate it, or simply run source bin/activate from WSL bash!
+
+ PowerShell:
+
+powershell
+.\activate.ps1
+
+cmd
+activate.bat
