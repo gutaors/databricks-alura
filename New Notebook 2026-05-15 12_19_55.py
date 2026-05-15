@@ -11,4 +11,14 @@ print("testa se include in exports funcionou")
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC pip install databricks-cli
+# MAGIC
+# MAGIC databricks configure --token   # informe host + token pessoal
+# MAGIC
+# MAGIC databricks bundle deploy --target dev
+# MAGIC
+
+# COMMAND ----------
+
 
