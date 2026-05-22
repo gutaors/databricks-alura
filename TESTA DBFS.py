@@ -21,4 +21,25 @@ print("testa se include in exports funcionou")
 
 # COMMAND ----------
 
+# testa dbfs
+dbutils.fs.ls("/")
+
+
+# COMMAND ----------
+
+#Criar um arquivo de teste
+# 
+dbutils.fs.put(
+    "dbfs:/Workspace/teste.txt",
+    "Olá DBFS!",
+    True
+)
+
+# COMMAND ----------
+
+#Ler o arquivo
+dbutils.fs.head("dbfs:/Workspace/teste.txt")
+
+# COMMAND ----------
+
 
